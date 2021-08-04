@@ -5,6 +5,7 @@ body{
 	letter-spacing : 0.2em;
 	text-transform: uppercase;
 	padding : 10%;
+	margin : auto 0;
 }
 
 h1{
@@ -12,6 +13,15 @@ h1{
 	font: 600 3.5em 'Raleway', sans-serif;
 	letter-spacing: 0.5em;
 	color: rgba(0,0,0,.5);
+}
+
+#random{
+	margin : 20px;
+    padding : 10px;
+    border-radius: 2em;
+    background: linear-gradient(45deg,#67B26F, #4ca2cd ,#0052D4); 
+    color : #EDEDEE; 
+    font-size: 1.5em;
 }
 
 h3{
@@ -24,4 +34,15 @@ h3{
    h1{
    		font-size: 2rem;
    }
+}
+
+
+#random:hover{
+	font-size : 3em;
+	background: linear-gradient(60deg,#ef32d9,#89fffd);
+
+}
+
+#random:active{
+	transform: translateY(5px);
 }
